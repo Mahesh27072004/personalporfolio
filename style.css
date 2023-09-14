@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;*/
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(11, 1, 1, 0.688),rgba(9, 3, 3, 0.863)), url("images/banner1.jpg");
+    background-size: cover;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline solid #7ed154;
+}
+.logo>span{
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#7ed154;
+    text-decoration: underline solid white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+    background: #5ea43b;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: #7ed154;
+    border-radius: 8px;
+}
+.container{
+    width:100% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+
+}
+.left{
+    flex-basis: 60%;
+}
+.right{
+    width: 40%;
+    height: 90%;
+    flex-basis: 30%;
+    padding: -4rem --2rem;
+    margin: -4rem;
+    background: transparent;
+    
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: #7ed154;
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.4rem;
+}
+#hire{
+    text-decoration: none;
+    background: #7ed154;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+#myp{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#7ed154;
+}
+#page1>#left{
+    position: absolute;
+    right: 3%;
+    height: 100%;
+    top: 40%;
+    transform: translateY(-40%);
+    width: 40%;
+    background-color: rgb(8, 8, 8);
+}
+#left>.box{
+    border-top: 2px solid black;
+    height: 33%;
+    width: 100%;
+    text-decoration: white;
+    font-size: 30px;
+    background-color: rgb(131, 125, 90);
+    border-bottom: 2px solid #000;
+    text-align: center;
+    
+}
+.exp{
+    margin: 3vw;
+    padding: 1vw;
+    cursor: pointer;
+    color: #2c5617;
+}
+#text1{
+    margin: 100px 50px;
+
+    height: 30%;
+    width: 50%;
+    
+    position: absolute;
+    z-index: 9;
+}
+#text1 h1{
+    font-size: 50px;
+    margin: 20PX 20PX;
+}
+#text1 h4{
+    font-size: 20px;
+    line-height: 1.7rem;
+}
+
+
+#bio{
+    cursor: pointer;
+    padding: 100px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 20px 40px;
+}
+.leftbio img{
+    width: 100%;
+    height: 100%;
+    top: 20%;
+    border-radius: 8px;
+}
+.rightbio p{
+    margin:10px 0;
+    line-height: 2.4rem;
+
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 2rem;
+}
+#follow{
+    text-align: center;
+
+}
+#follow i{
+    color: #7ed154;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+
+}
+.link-h{
+    text-align: center;
+    margin: 3rem;
+
+}
+#resume{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed gray;
+
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    background-image: linear-gradient(rgba(11, 1, 1, 0.688),rgba(9, 3, 3, 0.863)), url("images/blog6.jpg");
+    border-bottom: 2px solid white;
+}
+#Services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.projects{
+    height: 100%;
+    width: 30%;
+    background-color: #abb3a8;
+}
+#text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid rgb(42, 22, 169);
+
+}
+#image{
+    height: 70%;
+    width: 100%;
+    background-color: indianred;
+    background-image: url(images/calculator.jpg);
+    background-size: cover;
+    
+}
+#image1{
+    height: 70%;
+    width: 100%;
+    background-image: url(images/landing.jpg);
+    background-size: cover;
+    
+}
+#image2{
+    height: 70%;
+    width: 100%;
+
+    background-image: url(images/portfolio.jpg);
+    background-size: cover;
+    
+}
+.p2{
+    position: relative;
+    top: -20%;
+}
+.p3{
+    position: relative;
+    top: -40%;
+}
+#text4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 20%;
+    width: 30%;
+    color:white;
+}
+#text4>h1{
+    margin: 20px;
+    font-size: 50px;
+    
+
+}
+#text4>h5{
+    color: #7ed154;
+    font-size: 17px;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-decoration-line: underline;
+}
+
+footer{
+    background: #7ed154;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    width: 100%;
+    
+}
